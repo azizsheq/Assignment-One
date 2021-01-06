@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    margin: 0px;
+    color: #363958;
+}
+section{
+    margin-left: 10px;
+    width: 100%;
+    height: 450px;
+}
+p{
+    margin: 0px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    color: #3E3E3E;
+}
+.highlight{
+    color: #FF8367;
+}
+.link-button{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 15px 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+}
+.half-width{
+    background-color: white;
+    width: 49%;
+    height: 450px;
+    float: left;
+}
+.half-width img{
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+.latest-workings{
+    background-color: whitesmoke;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.projects{
+    background-color: ghostwhite;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 25%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+.projects img{
+    height: 250px;
+    width: 100%;
+} 
+.projects h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.inquiry {
+    background-image: url("Images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    width: auto;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.inquiry h1{
+    color:  ghostwhite;
+    float: left;
+}
+.inquiry a{
+    float: right;
+}
+.stay-connnected{
+    text-align: center;
+    margin-top: 50px;
+}
+.stay-connnected h2{
+    color: #363958;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.stay-connnected h3{
+    color: #696871;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.icons img{
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+}
+footer{
+    background-color: honeydew;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
