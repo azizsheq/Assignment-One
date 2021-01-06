@@ -35,9 +35,13 @@ p{
 }
 .half-width{
     background-color: white;
-    width: 49%;
+    width: 45%;
     height: 450px;
     float: left;
+}
+.intro{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .half-width img{
     text-align: center;
@@ -48,7 +52,7 @@ p{
     background-color: whitesmoke;
     height: 600px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     text-align: center;
     margin-bottom: 150px;
 }
@@ -73,9 +77,37 @@ p{
     font-weight: bold;
     margin-top: 10px;
 }
-
+.langauge-skills{
+    background-color: white;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.langauge{
+    background-color: ghostwhite;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 16%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.langauge img{
+    height: 150px;
+    width: 150px;
+} 
+.langauge h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 .inquiry {
-    background-image: url("Images/Group_33094_1.png");
+    background-image: url("Images/inquery-background.png");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50px;
@@ -92,8 +124,10 @@ p{
 .inquiry h1{
     color:  ghostwhite;
     float: left;
+    letter-spacing: 5px;
 }
 .inquiry a{
+    padding-top: 10px;
     float: right;
 }
 .stay-connnected{
@@ -118,7 +152,7 @@ p{
     padding-left: 50px;
 }
 footer{
-    background-color: honeydew;
+    background-color: lightsalmon;
     padding: 15px;
     text-align: center;
     font-size: 12px;
