@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    width: auto;
 }
 h1{
     font-size: 80px;
@@ -11,7 +12,7 @@ h1{
 }
 section{
     margin-left: 10px;
-    width: 100%;
+    width: auto;
     height: 450px;
 }
 p{
@@ -43,10 +44,24 @@ p{
     padding-left: 50px;
     padding-right: 50px;
 }
+#intro-p{
+    padding-right: 0px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#intro-img{
+    padding-right: 0px;
+    text-align: center;
+}
+
 .half-width img{
     text-align: center;
     width: 350px;
     height: 350px;
+}
+.intro img{
+    padding-left: 0px;
 }
 .latest-workings{
     background-color: whitesmoke;
